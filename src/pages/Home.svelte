@@ -38,8 +38,8 @@
   <Layout say={"刚好，这里有一封给你的信"}>
     {#if isShowInput}
       <form class="pl-8 sm:pl-16 transform translate-y-24">
-        <label for="name" class="text-xl font-thin">亲爱的：</label>
-        <input
+        <label for="name" class="text-xl font-thin">亲爱的老婆</label>
+        <!-- <input
           type="text"
           name={yourName}
           id="name"
@@ -47,7 +47,7 @@
           placeholder="你的名字"
           bind:value={yourName}
           class="border-b bg-gray-100 h-9 p-2 w-32 rounded-md"
-        />
+        /> -->
       </form>
     {/if}
     <!-- 信封图片 -->
@@ -65,9 +65,9 @@
 {:else if isShowLove === "love1"}
   <Love />
 {:else}
-  <Layout say={"你是 口中情 眼中喜 心中爱 意中人"}>
+  <Layout say={"和你在一起的时光是我最珍贵的记忆，无论何时何地，我都会陪伴在你身边。"}>
     <div class="text-center">
-      <Heart name={yourName} />
+      <Heart name=“黄婕” />
     </div>
   </Layout>
 {/if}
