@@ -67,7 +67,7 @@
 {:else}
   <Layout say={"和你在一起的时光是我最珍贵的记忆，无论何时何地，我都会陪伴在你身边。"}>
     <div class="text-center">
-      <Heart name=“黄婕” />
+      <Heart name= 黄婕 />
     </div>
   </Layout>
 {/if}

@@ -3,10 +3,10 @@
   setTimeout(() => {
     var settings = {
       particles: {
-        length: 600, // 爱心的大小
+        length: 580, // 爱心的大小
         duration: 3, // 爱心扩散速度，越小速度越快
         velocity: 60, // 爱心扩散速度，越小速度越慢
-        effect: -0.6, // 爱心收缩效果，比如：1扩散，-2收缩
+        effect: 1, // 爱心收缩效果，比如：1扩散，-2收缩
         size: 24, // 爱心数量
       },
     };
